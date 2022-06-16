@@ -2,10 +2,19 @@ body{
     background-color: #083b4c;
 }
 
+#title h1{
+    font-size: 72px;
+}
+
 #section_numbers .ms_box{
     background-color: #1389b2;
-    margin: 20px;
+    margin: 10px;
     padding: 30px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #section_numbers .fizz{
