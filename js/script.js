@@ -15,6 +15,7 @@ for (let i = 1; i <= 100; i++ ){
     // Aggiungo il contenuto all'interno del div
     if ((i % 3 == 0) && (i % 5 == 0)){
             console.log("FizzBuzz");
+            msBox.classList.add("fizzbuzz")
             msBox.innerHTML = "FizzBuzz";
         } else if(i % 3 == 0){
                 console.log("Fizz");
@@ -22,6 +23,7 @@ for (let i = 1; i <= 100; i++ ){
                 msBox.innerHTML = "Fizz";
             } else if(i % 5 == 0){
                     console.log("Buzz");
+                    msBox.classList.add("buzz")
                     msBox.innerHTML = "Buzz";
                 } else{
                         console.log(i);
