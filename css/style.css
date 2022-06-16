@@ -1,3 +1,10 @@
 body{
     background-color: #083b4c;
 }
+
+#section_numbers .ms_box{
+    background-color: #1389b2;
+    margin: 20px;
+    padding: 30px;
+}
+
